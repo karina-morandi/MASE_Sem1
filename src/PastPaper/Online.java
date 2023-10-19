@@ -55,3 +55,12 @@ class SubscriptionsService extends Online implements QualityJournalism {
 		return super.toString() + " whose editor is " + getEditor();
 	}
 }
+
+
+//Child Class may have their own variables, extend (super) parents', or both
+//class child extends parent{
+// private String variable;
+//child(String variable, String parVar){
+//super(parVar);
+//this.variable = variable;
+// methods;

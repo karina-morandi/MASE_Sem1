@@ -58,3 +58,11 @@ final public class NewsPurchase {
 	}
 
 }
+
+
+//Immutable class
+//Final class
+//Final Private Variables
+//No setters (only getters)
+//Public Static method createNewInstance
+//Returns the reference
