@@ -60,9 +60,9 @@ final public class LeisureCart {
 	@Override
 	public String toString() {
 		return "\tWhere?:\t\t" + getLocation() +
-				"\n\tHow much?:\t\t" + getMachine().toString() +
+				"\n\tHow much?:\t" + getMachine().toString() +
 				"\n\tItems?:\t\t" + items + 
-				"\n\tDetails:\t\t" + getItems().toString();
+				"\n\tDetails:\t\t";
 	}
 	
 	
