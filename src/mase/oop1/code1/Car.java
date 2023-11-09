@@ -13,7 +13,7 @@ public abstract class Car implements Machine {
 	
 	@Override
 	public String toString() {
-		return "\n\tHow Much:\t\t" + thePrice;
+		return "" + thePrice;
 	}
 	
 	public abstract boolean isPractical();

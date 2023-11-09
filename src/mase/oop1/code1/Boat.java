@@ -13,7 +13,7 @@ public abstract class Boat implements Machine {
 	
 	@Override
 	public String toString () {
-		return "\n\tHow much\t\t: " + thePrice;
+		return "" + thePrice;
 	}
 	
 }

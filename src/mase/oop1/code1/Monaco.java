@@ -38,8 +38,8 @@ public class Monaco {
 			if(b.getThePurchase().getMachine() instanceof Desirable) {
 				System.out.println(" - Desirable Item");
 			} else if(b.getThePurchase().getMachine() instanceof Car) {
-//				if(Car.isPractical() == true) {
-//					System.out.println(" - Practical Car");
+				if(((Car)b.getThePurchase().getMachine()).isPractical() == true) {
+					System.out.println(" - Practical Car");}
 				}
 			}
 	}
@@ -61,6 +61,6 @@ class Billionaire {
 	
 	@Override
 	public String toString() {
-		return name + " purchased " + "\nDetails: " + getThePurchase().toString();
+		return name + " purchased\n"+ getThePurchase().toString();
 	}
 }
