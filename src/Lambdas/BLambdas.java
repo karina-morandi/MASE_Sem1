@@ -8,12 +8,10 @@ public class BLambdas {
 		
 		BLambdas b1 = new BLambdas();
 		b1.predicate();
-		
-		System.out.println(check(4, (Integer n) -> {return n%2 == 0;}));
-		System.out.println(check(4, n -> {return n%2 == 0;}));
-		System.out.println(check(7, n -> {return n%2 == 0;}));
 
-		 System.out.println(check("Mr. Joe Bloggs", (String s) -> { return s.startsWith("Mr."); }      ));// true
+		System.out.println(check(4, n -> n%2 == 0));
+		System.out.println(check(7, n -> n%2 == 0));
+
 	     System.out.println(check("Mr. Joe Bloggs", s -> s.startsWith("Mr.")));// true
 	     System.out.println(check("Ms. Joe Bloggs", s -> s.startsWith("Mr.")));// false
 
