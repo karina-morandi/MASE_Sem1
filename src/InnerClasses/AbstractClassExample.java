@@ -1,4 +1,4 @@
-package innerclasses;
+package InnerClasses;
 
 class C {
 }

@@ -1,4 +1,4 @@
-package innerclasses;
+package InnerClasses;
 
 class A {
     public void methodFromClassA() {

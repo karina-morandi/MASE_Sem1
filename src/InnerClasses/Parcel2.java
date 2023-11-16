@@ -1,4 +1,4 @@
-package innerclasses;
+package InnerClasses;
 
 // Returning a reference to an inner class.
 // After you compile this file, the following classes are created in the following file structure:

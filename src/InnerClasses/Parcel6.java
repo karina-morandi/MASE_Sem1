@@ -3,7 +3,7 @@
         int value();
     }
  */
-package innerclasses;
+package InnerClasses;
 
 // After you compile this file, the following classes are created in the following file structure:
 //     .../innerclasses/Parcel6.class

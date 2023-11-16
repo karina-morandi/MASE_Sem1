@@ -1,5 +1,5 @@
 // Sean Kennedy
-package example.inner;
+package ExampleInner;
 
 public interface MemoryI {
 

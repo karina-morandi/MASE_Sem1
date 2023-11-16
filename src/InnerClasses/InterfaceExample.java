@@ -1,4 +1,4 @@
-package innerclasses;
+package InnerClasses;
 
 interface R {}  
 interface S { 

@@ -1,6 +1,6 @@
 // Based on http://stackoverflow.com/questions/7874875/access-outer-class-super-from-inner-class-in-java
 // https://stackoverflow.com/questions/586363/why-is-super-super-method-not-allowed-in-java
-package innerclasses;
+package InnerClasses;
 
 class OuterB  {  // extends Object
 
